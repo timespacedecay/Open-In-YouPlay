@@ -29,6 +29,6 @@ Works with:
 - Playlists
 
 ## Credits
-Based on [Open-In-Apollo](https://github.com/AnthonyGress/Open-In-Apollo) by AnthonyGress
+Based on [Open-In-Youtube](https://github.com/xcfrg/Open-In-Youtube) by xcfrg which was forked from [Open-In-Apollo](https://github.com/AnthonyGress/Open-In-Apollo) by AnthonyGress.
 
 [OpenInYouPlay]: https://raw.githubusercontent.com/timespacedecay/Open-In-YouPlay/refs/heads/main/open-in-youplay.user.js
