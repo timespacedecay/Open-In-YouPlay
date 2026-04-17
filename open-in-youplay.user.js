@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Open YouTube App
-// @version      2.0.0
-// @author       AnthonyGress
+// @name         Open in YouPlay App
+// @version      2026.04.16_01
+// @author       timespacedecay
 // @match        *://*.youtube.com/*
 // @match        *://*.youtu.be/*
 // @match        *://*.yahoo.com/*
@@ -230,13 +230,13 @@ function convertToYoutubeUrl(urlString) {
 			return null;
 		}
 
-		// Convert to youtube:// protocol
-		// Format: youtube://{pathname without leading slash}{search}{hash}
-		const pathname = url.pathname.slice(1); // Remove leading '/'
+		// Convert to youplay:// protocol
+		// Format: youplay://{pathname}{search}{hash}
+		const pathname = url.pathname
 		const search = url.search || '';
 		const hash = url.hash || '';
 
-		return `youtube://${pathname}${search}${hash}`;
+		return `youplay://openURL?url=${encodeURIComponent('https://www.youtube.com' + pathname + search + hash)}`;
 	} catch (error) {
 		console.error('Error converting to YouTube URL:', error);
 		return null;
