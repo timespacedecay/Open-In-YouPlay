@@ -1,4 +1,4 @@
-# Open-In-YouTube
+# Open-In-YouPlay
 
 A userscript to open YouTube links in the YouPlay app on iOS.
 
