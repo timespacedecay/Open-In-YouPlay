@@ -21,7 +21,7 @@ Userscript code: [Open In YouPlay Userscript][OpenInYouPlay]
 ## Usage
 Open any YouTube link in Safari (either directly or from search results like Google, Bing, DuckDuckGo), and it will automatically redirect to the YouPlay app.
 
-![open_in_youplay_screenshot](YouPlay_Prompt.PNG)
+![open_in_youplay_screenshot](YouPlay_Prompt.PNG | width=500)
 
 Works with:
 - Standard videos (youtube.com/watch?v=...)
